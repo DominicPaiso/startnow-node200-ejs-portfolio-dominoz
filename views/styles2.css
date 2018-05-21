@@ -1,0 +1,8 @@
+body {
+    /* background: url('http://www.desktopwallpaperhd.net/wallpapers/11/6/portfolio-backgrounds-110822.jpg'); */
+    background-image: url('https://avante.biz/wp-content/uploads/2017/03/Background-Images-For-Websites-001.jpg');
+    /* background-image: linear-gradient(to bottom, #D8D8D8, #D8D8D8 50%, rgb(128, 126, 126) 20%); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: cursive;
+}

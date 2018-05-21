@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title> Dom's Portfolio </title>
+</head>
+
+<h1>
+    <%= person.firstName %>
+        <%= person.lastName %>
+</h1>
+
+<body>
+    <p>
+        <!-- <iframe src="paragraph.txt" align='middle'> </iframe> -->
+        Hello World! My name is Dominic Paiso and I am an aspiring junior developer. I am currently a student at Origin Code Academy
+        based out in sunny San Diego, CA. This portfolio is to showcase some of the projects I have worked on during my time
+        here. So I hope you enjoy what I have to offer!
+
+    </p>
+
+    <picture>
+        <source srcset='https://i.imgur.com/8TNBlv3.jpg'>
+        <img src='https://i.imgur.com/8TNBlv3.jpg' align='right'>
+    </picture>
+
+    <h2> My Projects </h2>
+
+    <ol>
+        <li>
+            <a href="https://react100-hackathon.herokuapp.com/">Brewery Finder</a>
+        </li>
+        <li>
+            <a href="https://dom-react-vstda.herokuapp.com/">Very Simple To Do App</a>
+        </li>
+        <li>
+            <a href="https://dom-react-change-calculator.herokuapp.com/">Change Calculator</a>
+        </li>
+    </ol>
+
+    <div>
+        <form action="/contact" method="GET">
+            <button type="submit">Contact Me</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
